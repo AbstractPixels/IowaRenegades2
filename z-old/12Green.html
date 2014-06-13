@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title>jQuery Tabs Demo</title>
+		<style>
+			* {padding:0; margin:0;}
+
+			html {
+				background:black;
+				padding:15px 15px 0;
+				font-family:sans-serif;
+				font-size:14px;
+			}
+
+			p, h3 { 
+				margin-bottom:15px;
+			}
+
+			div {
+				padding:10px;
+				width:600px;
+				background:#fff;
+			}
+
+			.tabs li {
+				list-style:none;
+				display:inline;
+			}
+
+			.tabs a {
+				padding:5px 10px;
+				display:inline-block;
+				background:#666;
+				color:#fff;
+				text-decoration:none;
+			}
+
+			.tabs a.active {
+				background:#fff;
+				color:#000;
+			}
+			
+			
+			
+						
+			
+			#contentWrapper	{
+		width:960px;
+		margin: -16px auto 0px auto;
+		display:block;
+		text-align:center;
+		}
+	
+	#content {
+		overflow:hidden;
+		position:absolute;
+		height:750px;
+		width:960px;
+		margin:0 auto;
+		padding:0;
+		display:block;
+		top:50px;
+		}	
+
+
+
+				
+			/*----------------Content classes-------------*/
+.leftWrapper, .rightWrapper	{
+	width:260px;
+	height:650px;
+	display:block;
+	border: solid 1px limegreen;
+	}
+	
+	.leftWrapper	{
+		float:left;
+		}
+		
+	.rightWrapper	{
+			float:right;
+		}
+		
+.mainWrapper	{
+	width:430px;
+	height:100%;
+	display:block;
+		float:left;
+		padding: 0 0px;
+/*****	border: solid 1px red; *****/
+	}
+	
+	.orangeText	{
+		font-family:'BreeSerifRegular', Arial, sans-serif;
+		color: orange;
+		}
+	
+	
+
+#rosteri, #schedulei, #resultsi, #contacti, #abouti, #registeri, #thanks {
+margin:0 auto;
+	visibility: visible;
+	position: absolute;
+	height:800px;
+	background-image:url(../teams/images/softball-green-stitches1000.png);
+	width: 100%;
+	top: 0px;
+	padding:0px;
+	background-size:contain;
+	background-position:center top;
+	background-repeat:no-repeat;
+	display:block;
+}
+
+
+
+
+#resultsi, #contacti, {width:6000px	}
+	
+#rosteri		{	
+	left:0px; 
+	
+	font-size:16px;
+	
+	}
+		
+		#rosteri .headerText		{
+		margin:60px auto 0 auto;
+		}
+		
+		#rosteri h2	{
+			font-size:1.5em;
+			}
+	
+#schedulei 	{
+	left:6000px;	
+	}
+	
+#resultsi 	{	left:12000px;}
+#contacti 		{	left:18000px;}
+#abouti 		{	left:24000px;}
+#registeri 	{	left:30000px;}
+
+
+	#registeri .headerText		{
+		margin:60px auto 0 auto;
+		}
+		
+		#resultsi .headerText		{
+		font-size:17px;
+		}
+			
+			
+			
+			
+			
+
+		</style>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script>
+			// Wait until the DOM has loaded before querying the document
+			$(document).ready(function(){
+				$('ul.tabs').each(function(){
+					// For each set of tabs, we want to keep track of
+					// which tab is active and it's associated content
+					var $active, $content, $links = $(this).find('a');
+
+					// Use the first link as the initial active tab
+					$active = $links.first().addClass('active');
+					$content = $($active.attr('href'));
+
+					// Hide the remaining content
+					$links.not(':first').each(function () {
+						$($(this).attr('href')).hide();
+					});
+
+					// Bind the click event handler
+					$(this).on('click', 'a', function(e){
+						// Make the old tab inactive.
+						$active.removeClass('active');
+						$content.hide();
+
+						// Update the variables with the new link and content
+						$active = $(this);
+						$content = $($(this).attr('href'));
+
+						// Make the tab active.
+						$active.addClass('active');
+						$content.show();
+
+						// Prevent the anchor's default click action
+						e.preventDefault();
+					});
+				});
+			});
+		</script>
+        
+        
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="../js/scroll2.js"></script>
+        
+        
+        
+		
+	</head>
+	
+    
+    
+    
+  
+    <body onLoad="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+
+<div id="contentWrapper">
+<div id="content">
+<div class="menu">
+			<a href='#roster' class='roster buttons'>ROSTER</a>
+			<a href='#schedule' class='schedule buttons'>SCHEDULE</a>
+			<a href='#results' class='results buttons'>RESULTS</a>
+	</div>
+
+<!-- =============Sliding Pages============== -->
+
+
+
+
+<div id='rosteri'>
+			<h3>Section 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis placerat dolor id aliquet. Sed a orci in justo blandit commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+		</div>
+		<div id='schedulei'>
+			<h3>Section 2</h3>
+			<p>Aenean et est tortor. In pharetra pretium convallis. Mauris sollicitudin ligula non mi hendrerit varius. Fusce convallis hendrerit mauris, eu accumsan nisl aliquam eu.</p>
+		</div>
+		<div id='resultsi'>
+			<h3>Section 3</h3>
+			<p>Suspendisse potenti. Morbi laoreet magna vitae est mollis ultricies. Mauris eget enim ac justo eleifend malesuada. Proin non consectetur est. Integer semper laoreet porta. Praesent facilisis leo nec libero tincidunt blandit.</p>
+		</div>
+        </div>
+        </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+		
+	</body>
+</html>

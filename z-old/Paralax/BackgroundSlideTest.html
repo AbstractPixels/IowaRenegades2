@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<title>Background slide test</title>
+
+<style>
+
+	html, body  {
+	height:auto;
+	width:2000px;
+	margin:0;
+	padding:0;
+	font: 14px  Arial, Helvetica, sans-serif;
+	background: #171717;
+	color: #888;
+	overflow:hidden;
+	text-align:left;
+	min-height:700px;
+
+}
+
+#homei, #abouti, #contacti, #brandingi, #arti, #webi, #thanks  {
+	visibility: visible;
+	position: absolute;
+	height:600px;
+	width: 6000px;
+	top: 0px;
+	padding:0px;
+}
+#bg {
+	position:absolute;
+	left:0;
+	top:0;
+	height:750px;
+	width:2000px;
+	margin:0;
+	padding:0;	
+	overflow:hidden;
+	background:#171717;
+}
+#bg img {margin:-1.8px; padding:0;}
+#content {
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top:0;
+	height:600px;
+	width:2000px;
+	margin:0;
+	padding:0;
+}	
+#brandingi, #arti, {width:6000px	}
+	
+#homei		{	left:0px;		/*background-image:url(../images/homei.jpg);*/		}
+#abouti 	{	left:6000px;	/*background-image:url(../images/abouti.jpg);*/		}
+#brandingi 	{	left:12000px;	/*background-image:url(../images/brandingi.jpg);*/	}
+#arti 		{	left:18000px;	/*background-image:url(../images/arti.jpg);*/		}
+#webi 		{	left:24000px;	/*background-image:url(../images/webi.jpg);*/		}
+#contacti 	{	left:30000px;	/*background-image:url(../images/contacti.jpg);*/	}
+#thanks 	{	left:36000px;	/*background-image:url(../images/thanks.jpg);*/		}
+
+
+p	{ 
+	padding: 0;
+	font: 12px Arial, Helvetica, sans-serif;
+	line-height:20px;
+	margin:0px 0 20px 0;
+} 
+
+a	{
+	color: #ccc;
+	text-decoration:none;
+	-webkit-transition: 2.5s;
+	-moz-transition: 2.5s;
+	transition: 2.5s;
+
+}
+
+a:hover {	
+color: #aaafff;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;}
+a:active {	
+color: #f5f5f5;}
+	
+a:focus, a:hover, a:active {	
+	text-decoration: none;
+}
+
+
+ul {
+	 margin-left:-2.75em; left:0; 
+}
+
+li { 
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	list-style-type: none;
+	line-height:2.5em;	
+	margin:0px;
+}
+
+h1, h2, h3, h4 {
+	font-family: font, Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 0px 0 0px -2px;
+	position:absolute;
+	left:100px;
+	top:151px;
+	color:#fff;
+	letter-spacing:-0.05em;
+}
+
+h2 {
+	font:14px Arial, Helvetica, sans-serif;
+	text-align:left;
+	line-height:20px;
+	margin: 0 0 20px 0px;
+}
+
+pre {
+	font-size: 1.0em;
+	line-height: 1.0em;
+	overflow-x: auto;
+}
+
+
+.menu {
+	position:absolute;
+	width:800px;
+	height:auto;
+	left:100px;
+	top: 67px;
+}
+
+.menu a{	
+	font: italic 18px Georgia, "Times New Roman", Times, serif;
+	text-transform:capitalize;
+	float:left;
+	text-decoration:none;
+	position:relative;
+	left:-10px;
+	padding: 15px 10px 15px 10px;
+	color:#bbb;
+	-webkit-transition:0.5s;
+}
+
+.menu a:hover  {
+	padding-top:10px;
+	color: #fff;}
+	
+.menu a:active  {
+	color: #bbb;}	
+
+#emf-form {
+	float:left;
+	position:relative;
+	font: 12px Arial, Helvetica, sans-serif;
+	top:244px;
+	left:100px;
+	width:405px;
+	height: 250px;
+	text-align:left;
+	margin:0 50px 0 0;
+}
+
+#emf-form label {	
+	float:left; 
+	width:125px;
+	margin: 3px 0 0 0; 
+	color:#aaa
+}
+
+#name, #email, #message {
+	float:left;	
+	font: italic 12px Georgia, "Times New Roman", Times, serif;
+	padding: 2px 4px 3px 4px;
+	width: 270px;
+	margin:0px 0 16px 0;
+	border:0;
+	color: #777;	
+	background:#fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#fff));
+	background-image: -moz-linear-gradient(100% 100% 90deg, #fff, #ccc);
+	border:1px solid #eee;	
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#name:focus, #email:focus, #message:focus {
+	background: #222;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ccc));
+	background-image: -moz-linear-gradient(100% 100% 90deg, #ccc, #fff);
+	border:1px solid #eee;	
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+#message {
+	height:135px;
+	line-height:20px;
+}
+
+#send {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float: left;
+	width: 284px;
+	beight:26px;
+	background-color:#212121;
+	margin:0px 0 0 124px;
+	padding:10px;
+	color: #ccc;
+	text-shadow: 0px 1px 0px #222;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#363333), to(#22222a));
+	background-image: -moz-linear-gradient(100% 100% 90deg, #22222a, #363333);
+	border:1px solid #222;	
+	border-top: 1px solid #4f444f;
+	border-bottom: 1px solid #1d1d1d;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+	
+#send:hover {
+	background-color:#222;
+	background-image:
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333030), to(#202028));
+	background-image:
+    -moz-linear-gradient(100% 100% 90deg, #202028, #333030);
+	color: #aaa;
+	border:1px solid #202020;	
+	border-top: 1px solid #3f3f3f;
+	border-bottom: 1px solid #1d1d1d;
+	padding: 9px 10px 11px 10px;
+}
+	
+#send:focus, #send:active {
+	background-color:#202020;
+	background-image:
+     -webkit-gradient(linear, 0% 0%, 0% 100%, from(#282428), to(#242428));
+	background-image:
+     -moz-linear-gradient(100% 100% 90deg, #242428, #282428);
+	 	color: #888;
+
+	border:1px solid #222;
+	padding: 12px 10px 8px 10px;
+}
+	
+ul.gallery {
+	position:absolute;
+	top:345px;
+	left:98px;
+	width: 900px;
+	height:125px;
+	border:none;
+	list-style: none;
+}
+		
+li.thumbs {	
+	float: left;
+	position: relative;
+	list-style: none;
+	width:130px;
+	height: 130px;
+	padding: 0px 0 0 0;
+	margin-right: 5px;
+	overflow:hidden;
+	opacity: 1.0;
+}
+
+li.thumbs img {			
+	border:0px;
+	padding:0;
+	margin:0px 0 0 0;
+}
+
+.serviceslist {
+	font-size: 1.42em;
+	text-transform: uppercase;
+}
+
+#copyright {
+	position: fixed;
+	font-size:0.65em;
+	color:#666;
+	width:auto;
+	bottom:30px;	
+	left:100px;
+}
+
+.box, .box2, .box3, .boxfull  { 
+	position:relative;
+	float:left;
+	left:100px;
+	top:	245px;
+	width:	250px;
+	height:	auto;
+	overflow:hidden;
+	margin:0 20px 0 0;	
+}
+
+.boxfull{
+	width:530px;
+}
+
+.box2{
+	width:150px;
+}
+.box3{
+	width:780px;
+	height:80px;
+	-moz-column-count: 3; 
+	-moz-column-gap: 30px; 
+	-moz-column-rule: 0px solid black; 
+	-webkit-column-count: 3; 
+	-webkit-column-gap: 30px; 
+	-webkit-column-rule: 0px solid black;
+}
+	
+li.hidden {	
+	visibility:hidden; 
+	text-decoration:none; 
+	border:0;
+}
+
+</style>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/valid.js"></script> 
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/slimbox2.js"></script>
+		<script type="text/javascript" src="js/fade.js"></script>
+		<script type="text/javascript"> 
+			$(function(){
+			$("#emf-form").validationEngine({
+				validationEventTriggers:"blur",
+				scroll:false
+			});
+                       })
+           </script>
+
+</head>
+
+<body>
+
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+
+<div id="bg">
+<img src="images/11.jpg" width="21500" height="50" />
+<img src="images/12.jpg" width="21500" height="50" />
+<img src="images/13.jpg" width="21500" height="50" />
+<img src="images/21.jpg" width="21500" height="50" />
+<img src="images/22.jpg" width="21500" height="50" />
+<img src="images/23.jpg" width="21500" height="50" />
+<img src="images/31.jpg" width="21500" height="50" />
+<img src="images/32.jpg" width="21500" height="50" />
+<img src="images/33.jpg" width="21500" height="50" />
+<img src="images/41.jpg" width="21500" height="50" />
+<img src="images/42.jpg" width="21500" height="50" />
+<img src="images/43.jpg" width="21500" height="50" />
+<img src="images/51.jpg" width="21500" height="50" />
+<img src="images/52.jpg" width="21500" height="50" />
+<img src="images/53.jpg" width="21500" height="50" />
+<img src="images/61.jpg" width="21500" height="50" />
+<img src="images/62.jpg" width="21500" height="50" />
+<img src="images/63.jpg" width="21500" height="50" />
+</div>
+
+<div id="content">
+		<div id="homei"> 
+    
+        <div class="menu">
+            	<a  class="home buttons" href="#home">Home</a>
+                <a  class="art buttons" href="#art">Print</a>
+            	<a  class="web buttons" href="#web">Web</a>
+            	<a  class="about buttons" href="#about">About</a>
+            	<a  class="branding buttons" href="#branding">DMACC</a>
+            	<a  class="contact  buttons" href="#contact">Contact</a>  
+		</div><!--menu-->
+        
+        <h1>Abstract Pixels - Digital Art by Chris Shelton</h1>
+        
+        <div class="boxfull">
+                <h2>	I've been known to dabble in a spot of website design and development and graphic design, 
+                		and to create the odd digital abstract or typography art piece now and again. Yes, I'm British.</h2>
+ 				<h2>	<a href="#about" class="about link">Find out more about me,</a> 
+                    	<a href="#branding" class="branding link">peruse my portfolio</a> and 
+                    	<a href="#contact" class="contact link">request a quote</a>.</h2>
+        </div><!--boxfull-->
+	</div><!--home-->
+		
+	<div id="abouti"> 
+    
+          <div class="menu">
+            	<a  class="home buttons" href="#home">Home</a>
+                <a  class="art buttons" href="#art">Print</a>
+            	<a  class="web buttons" href="#web">Web</a>
+            	<a  class="about buttons" href="#about">About</a>
+            	<a  class="branding buttons" href="#branding">DMACC</a>
+            	<a  class="contact  buttons" href="#contact">Contact</a>  
+		</div><!--menu-->
+        
+        <h1>A bit about me</h1>
+        
+        <div class="box">		 
+            <p>	From this point on I&rsquo;ll refer to myself in the third-person, all the trendy creative people are doing it.</p>
+        	<p>	Imran was born on a mid-Summers night in 1987 - the year the Knoll brothers first developed Photoshop (anyone smell irony?). 
+            	He currently lives in Bradford which is in the north of England (no, not Scotland).</p>
+       	</div><!--box-->
+                 
+        <div class="box">
+			<p>	Imran loved to draw as a child, and after his father bought the first family computer, 
+               	Imran soon transferred his creativity from paper to MsPaint. 
+               	He eventually moved onto working with Photoshop, Illustrator and Dreamweaver, after realizing MsPaint was not the industry standard.</p>
+			<p>	These days he is studying for a degree in Architecture at a local University, learning the art of Arabic Calligraphy, 
+            	selling his services as a designer to pay for tuition fees and just generally being a twenty-something-year-old.</p>
+       	</div><!--box-->
+				
+        <div class="box">
+        	<p>	He loves mob movies, especially the Godfather 1 &amp; 2 (part 3 was a great movie in its own right, it just wasn&rsquo;t a great Godfather movie), 
+            	Chappelle Show, the Office, Pugilism, Formula One, the late and great Designers Republic, &lsquo;alternative&rsquo; Hip-hop, Dubstep, ol&rsquo; 
+                school kicks and other &lsquo;designery&rsquo; things. Oh and he's a complete petrol-head.</p>
+      	</div><!--box-->
+
+	</div><!--about-->
+
+<div id="brandingi"> 
+
+          <div class="menu">
+            	<a  class="home buttons" href="#home">Home</a>
+                <a  class="art buttons" href="#art">Print</a>
+            	<a  class="web buttons" href="#web">Web</a>
+            	<a  class="about buttons" href="#about">About</a>
+            	<a  class="branding buttons" href="#branding">DMACC</a>
+            	<a  class="contact  buttons" href="#contact">Contact</a>  
+		</div><!--menu-->
+        
+       	<h1>Branding: I'll soon make a star out of you</h1>
+                
+      <ul class="gallery">
+          <li id="hk1" class="thumbs"><a href="images/hk1.jpg" rel="lightbox[hk]" title="House of Khanum logo">
+          <img src="images/hk.png" width="130" height="130" border="0" alt="House of Khanum logo"/></a></li>
+            
+          <li id="cf1" class="thumbs"><a href="images/cf1.jpg" rel="lightbox[cf]" title="Cheap Flights 247 logo">
+          <img src="images/cf.png" width="130" height="130" border="0" alt="Cheap Flights 247 logo"/></a></li>
+            
+          <li id="sa1" class="thumbs"><a href="images/sa1.jpg" rel="lightbox[sa]" title="Simply Arranged Bespoke Event Management logo">
+          <img src="images/sa.png" width="130" height="130" border="0" alt="Simply Arranged Bespoke Event Management logo"/></a></li>
+            
+          <li id="ad1" class="thumbs"><a href="images/ad1.jpg" rel="lightbox[ad]" title="Adnounce Advertising logo">
+          <img src="images/ad.png" width="130" height="130" border="0" alt="Adnounce Advertising logo"/></a></li>
+            
+          <li id="rp1" class="thumbs"><a href="images/rp1.jpg" rel="lightbox[rp]" title="Rapido's Pizzeria logo">
+          <img src="images/rp.png" width="130" height="130" border="0" alt="Rapido's Pizzeria logo"/></a></li>
+            
+          <li id="cf2" class="hidden"><a href="images/cf2.jpg" rel="lightbox[cf]" title="Cheap Flights 247 Business card, envelope &amp; letterhead">
+       	  </a></li>
+            
+          <li id="cfp1" class="hidden"><a href="images/cfp1.jpg" rel="lightbox[cf]" title="Cheap Flights 247 Promotional Material">
+          </a></li>
+            
+          <li id="hk2" class="hidden"><a href="images/hk2.jpg" rel="lightbox[hk]" title="House of Khanum logo"></a></li>
+            
+          <li id="sa2" class="hidden"><a href="images/sa2.jpg" rel="lightbox[sa]" title="Simply Arranged double-sided business card, envelope &amp; letterhead">
+          </a></li>
+            
+          <li id="ad2" class="hidden"><a href="images/ad2.jpg" rel="lightbox[ad]" title="Adnounce Advertising car full-body vinyl wrap">
+          </a></li>
+            
+          <li id="ad3" class="hidden"><a href="images/ad3.jpg" rel="lightbox[ad]" title="Adnounce Advertising car full-body vinyl wrap">
+          </a></li>       
+            
+          <li id="rp2" class="hidden"><a href="images/rp2.jpg" rel="lightbox[rp]" title="Rapido's Pizzeria A5 leaflet">
+          </a></li>
+            
+      </ul>
+       
+   	  <div class="box3">
+		<p>	In an increasingly more consumerist world, image really is everything and a solid brand identity that is professional, 
+            and unique is an absolute necessity.<br />
+			Below are a few examples of the branding work I've produced for various companies and individuals.
+            You'll find logos, stationery (letterheads, business cards, envelope templates etc) and promotional material 
+            (from flyers to roller banners to full-body car vinyl wraps).</p>
+		</div><!--box-->
+
+	</div><!--branding-->
+
+	<div id="arti"> 
+    
+          <div class="menu">
+            	<a  class="home buttons" href="#home">Home</a>
+                <a  class="art buttons" href="#art">Print</a>
+            	<a  class="web buttons" href="#web">Web</a>
+            	<a  class="about buttons" href="#about">About</a>
+            	<a  class="branding buttons" href="#branding">DMACC</a>
+            	<a  class="contact  buttons" href="#contact">Contact</a>  
+		</div><!--menu-->
+        
+        <h1>Art: More than just some pretty pictures</h1>
+                
+      <ul class="gallery">	
+           
+          <li id="a1" class="thumbs"><a href="images/a1.jpg" rel="lightbox[arab]" title="Arabica">
+          <img src="images/a1t.jpg" width="130" height="130" border="0" alt="Arab 1"/></a></li>
+   
+          <li id="sakina" class="thumbs"><a href="images/sakina.jpg" rel="lightbox[new]" title="Sakina">
+          <img src="images/sakinat.jpg" width="130" height="130" border="0" alt="Sakina"/></a></li>
+            
+		  <li id="june" class="thumbs"><a href="images/june.jpg" rel="lightbox[june]" title="June">
+          <img src="images/junet.jpg" width="130" height="130" border="0" alt="June"/></a></li>
+            
+          <li id="ontheone" class="thumbs"><a href="images/ontheone.jpg" rel="lightbox[old]" title="On the One">
+          <img src="images/ontheonet.jpg" width="130" height="130" border="0" alt="On the One"/></a></li>
+            
+          <li id="flow" class="thumbs"><a href="images/flow.jpg" rel="lightbox[typo]" title="Flow">
+          <img src="images/flowt.jpg" width="130" height="130" border="0" alt="Flow"/></a></li>
+			
+          <li id="jadoube" class="hidden"><a href="images/jadoube.jpg" rel="lightbox[new]" title="J'Adoube">
+          <img src="images/jadoubet.jpg" width="130" height="130" border="0" alt="J'Adoube"/></a></li>
+            
+          <li id="Ayo" class="hidden"><a href="images/ayo.jpg" rel="lightbox[new]" title="Ayo"></a></li>
+          <li id="swan" class="hidden"><a href="images/swan.jpg" rel="lightbox[june]" title="Property of the Queen"></a></li>
+          <li id="atargatis" class="hidden"><a href="images/atargatis.jpg" rel="lightbox[june]" title="Atargatis"></a></li>
+          <li id="half" class="hidden"><a href="images/aint.jpg" rel="lightbox[old]" title="Aint no such thing as half-way crooks"></a></li>       
+          <li id="outro" class="hidden"><a href="images/outro.jpg" rel="lightbox[old]" title="Outro"></a></li>                
+          <li id="a2" class="hidden"><a href="images/a2.jpg" rel="lightbox[arab]" title="Fault"></a></li>
+     
+      </ul>
+        
+      <div class="box3">
+       	  <p>	I&rsquo;ve considered myself an artist for as long as I can remember, I don&rsquo;t draw stick people anymore, 
+				my recent works consist of a mixture of digital abstract, typography and Arabic calligraphy. 
+				The underlying theme of my work is the capture of the feeling of continuous motion and change that a person 
+                experiences throughout this journey they call life. 
+                For those who aren&rsquo;t fluent with artsy fartsy talk, I create art that has lots of 'whooshy' bits and vivid colours that looks great hung up on your wall.</p>
+			</div><!--box-->
+
+  </div><!--art-->
+
+<div id="webi"> 
+
+          <div class="menu">
+            	<a  class="home buttons" href="#home">Home</a>
+                <a  class="art buttons" href="#art">Print</a>
+            	<a  class="web buttons" href="#web">Web</a>
+            	<a  class="about buttons" href="#about">About</a>
+            	<a  class="branding buttons" href="#branding">DMACC</a>
+            	<a  class="contact  buttons" href="#contact">Contact</a>  
+		</div><!--menu-->
+        
+       	<h1>Web: Code it, and they shall come</h1>
+                
+        <ul class="gallery">
+        	<li id="steph1" class="thumbs"><a href="images/steph1.jpg" rel="lightbox[Web1]" title="Stephanie Warne Photography">
+        	<img src="images/stepht.jpg" width="130" height="130" border="0" alt="Stephanie Warne Photography"/></a></li>
+            
+        	<li id="steph2" class="hidden"><a href="images/steph2.jpg" rel="lightbox[Web1]" title="Stephanie Warne Photography">
+        	<li id="steph3" class="hidden"><a href="images/steph3.jpg" rel="lightbox[Web1]" title="Stephanie Warne Photography">
+        	<li id="steph4" class="hidden"><a href="images/steph4.jpg" rel="lightbox[Web1]" title="Stephanie Warne Photography">
+        	<li id="steph5" class="hidden"><a href="images/steph5.jpg" rel="lightbox[Web1]" title="Stephanie Warne Photography">
+        	<li id="steph6" class="hidden"><a href="images/steph6.jpg" rel="lightbox[Web1]" title="Stephanie Warne Photography">
+
+        	<li id="anna1" class="thumbs"><a href="images/anna1.jpg" rel="lightbox[Web2]" title="Anna Shirron">
+        	<img src="images/annat.jpg" width="130" height="130" border="0" alt="Anna Shirron"/></a></li>
+        
+        	<li id="anna2" class="hidden"><a href="images/anna2.jpg" rel="lightbox[Web2]" title="Anna Shirron">
+        	<li id="anna3" class="hidden"><a href="images/anna3.jpg" rel="lightbox[Web2]" title="Anna Shirron">
+        	<li id="anna4" class="hidden"><a href="images/anna4.jpg" rel="lightbox[Web2]" title="Anna Shirron">
+
+        	<li id="w3" class="thumbs"><a href="images/w3.jpg" rel="lightbox[Web]" title="United Muslims' Convention">
+       	  	<img src="images/w3t.jpg" width="130" height="130" border="0" alt="United Muslims' Convention"/></a></li>
+
+		</ul>
+				
+		<div class="box3">
+			<p>	My fascination with website design began when I created a small online portfolio to exhibit my digital artwork and
+           	  	I've been hooked ever since.<br />
+				I strive to create beautifully crafted, clean and innovative sites that are easy-to-use and feature 
+                intuitive navigation systems. <br />
+                I use xHTML, copious amounts of CSS, a dash of javascript coding (jQuery is my bff) and a sprinkling of 
+                the grid-system.
+                <br />I also work with web development companies to design gorgeous websites.</p>
+		</div> <!--box-->
+
+  
+  </div><!--web-->
+
+	<div id="contacti">
+		
+          <div class="menu">
+            	<a  class="home buttons" href="#home">Home</a>
+                <a  class="art buttons" href="#art">Print</a>
+            	<a  class="web buttons" href="#web">Web</a>
+            	<a  class="about buttons" href="#about">About</a>
+            	<a  class="branding buttons" href="#branding">DMACC</a>
+            	<a  class="contact  buttons" href="#contact">Contact</a>  
+		</div><!--menu-->
+
+        <h1>Don't be a stranger, stranger!</h1>
+                
+                                
+		<form id="emf-form" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/631620"> 
+        	<label for="name">Name</label>
+            <input id="name" name="element_0" value="" size="55" maxlength="55" class="validate[required]" type="text" />
+            <label for="email">Email Address</label>
+            <input id="email" name="element_1" class="validate[required,custom[email]]" value="" size="55" maxlength="55" type="text" />          	
+            <label for="message">How can I help?</label>
+            <textarea id="message" name="element_2" class="validate[required]" rows="20" cols="100" ></textarea>
+            <input name="element_counts" value="3" type="hidden"/> 
+            <input  name="send" id="send" type="submit" value="Send!" /> 
+		</form> 
+                        
+		<div class="box2">
+        	<p>	Telephone:<br/><a class="link" href="tel:+447947910023">+44 (0) 79 479 100 23</a></p>
+			<p>	Email:<br/><a class="link" href="mailto:info@psynai.com">info@psynai.com</a></p>
+			<p>	Become a stalker: <br/>
+				<a class="link" href="http://imran-ashraf.tumblr.com">Daily Design Blog</a><br />
+            	<a class="link" href="http://www.behance.net/sinan">Behance</a><br />
+                <a class="link" href="http://www.twitter.com/psynai">Twitter</a><br />
+				<a class="link" href="http://www.facebook.com/psynaidesign">Facebook</a><br />
+				<a class="link" href="http://sinan.deviantart.com">DeviantART</a>
+			</p>
+		</div><!--box-->        
+         
+		<div class="box2">
+        	<p>	As seen on:<br/>
+            	<a class="link" href="http://cssbased.com/showcase/8443/psynai-design">CSSbased</a><br />
+				<a class="link" href="http://www.css-design-yorkshire.com/august2010.html">CSS Design Yorkshire</a><br />
+                <a class="link" href="http://www.cssdsgn.com/psynai/">CSSDSGN</a><br />
+                <a class="link" href="http://www.css-showcase.com">CSS-Showcase</a><br />
+                <a class="link" href="http://cssremix.com/visit/psynai-design/">CSSRemix</a><br />
+                <a class="link" href="http://www.dot-design.fr/galerie-css">Dot-Design.fr</a><br /> 
+                <a class="link" href="http://cssmayo.com/psynai-design/">CSSMayo</a><br />
+                <a class="link" href="http://onepagelove.com/psynai-design">One Page Love</a><br />
+           	</p>
+		</div><!--box-->        
+	</div><!--contact-->
+
+	<div id="thanks">
+	  	
+          <div class="menu">
+            	<a  class="home buttons" href="#home">Home</a>
+                <a  class="art buttons" href="#art">Print</a>
+            	<a  class="web buttons" href="#web">Web</a>
+            	<a  class="about buttons" href="#about">About</a>
+            	<a  class="branding buttons" href="#branding">DMACC</a>
+            	<a  class="contact  buttons" href="#contact">Contact</a>  
+		</div><!--menu-->
+
+        <h1>Thanks!</h1>
+                
+        <div class="boxfull">
+			<h2>Your message has been sent successfully. I'll get back to you shortly!<br />
+            <a class="link about" href="#about">In the mean time have a nosey around.</a></h2>                               
+		</div><!--boxfull-->
+
+	</div><!--thanks-->
+
+
+<div id="copyright">&copy; AbstractPixels - Chris Shelton 2012</div>
+</div>
+</body>
+</html>

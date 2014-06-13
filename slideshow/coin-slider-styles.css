@@ -1,0 +1,6 @@
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-title, .cs-buttons, .cs-active, .cs-buttons a { display: none; }
+
+.cs-prev, .cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }

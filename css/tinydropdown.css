@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'BreeSerifRegular';
+    src: url('fonts/BreeSerif-Regular-webfont.eot');
+    src: url('fonts/BreeSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BreeSerif-Regular-webfont.woff') format('woff'),
+         url('fonts/BreeSerif-Regular-webfont.ttf') format('truetype'),
+         url('fonts/BreeSerif-Regular-webfont.svg#BreeSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin:0;
+	padding:0; 
+	outline:0
+	}
+	
+.nav {
+	position:absolute;
+	width:480px;
+	height:20px;
+	padding:3px 5px 5px 5px;
+	right:0px;
+	top: 15px;
+	border-radius:6px;
+	background-color:rgba(252,155,3,.4);
+	}
+	
+.menu a {
+width:95px;
+font-size:1em;
+			font-family:'BreeSerifRegular', Arial, sans-serif;
+	text-transform:capitalize;
+	float:left;
+	text-decoration:none;
+	position:relative;
+	
+	padding: 0px 0px 0px 0px;
+	color: rgb(57,105,24);
+	transition:0.5s;
+	-webkit-transition:0.1s;
+	-moz-transition:0.1s;
+	-o-transition:0.1s;
+	-ms-transition:0.1s;
+	border-radius:4px;
+}
+
+.menu a:hover  {
+	padding-top:5px;
+	color: orange;
+	}
+	
+.menu a:active  {
+	color: #bbb;}	
+
+.menu {
+list-style:none; 
+font:18px 'BreeSerifRegular',Verdana;
+line-height:20px;
+text-align:center; 
+width:480px; 
+margin:0 0px;
+border-radius:4px;
+}
+
+.menu li {
+position:relative; 
+float:left; 
+width:95px; 
+z-index:1000;
+border-radius:4px;
+}
+
+.menu ul {
+display:none; 
+position:absolute; 
+font:normal 15px 'BreeSerifRegular',Verdana; 
+top:24px; 
+left:0; 
+
+display:none; 
+list-style:none
+}
+
+.menu ul li {
+float:none; 
+border:1px solid  rgb(57,105,24);
+border-radius:4px;
+width:110px;
+}
+.menu ul li a, li.menuhover li a, li.menuhover li.menuhover li a {
+float:none; 
+display:block; 
+background:rgb(255,153,0); 
+color: rgb(57,105,24);
+height:22px; 
+padding-top:5px;
+border-radius:4px;
+width:100%;
+}
+
+.menu ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {
+background:rgb(57,105,24);
+color: rgb(255,153,0);
+}
+
+.menu ul li span, li.menuhover li span, li.menuhover li.menuhover li span {
+float:none; 
+display:block; 
+background:none; 
+height:22px; 
+padding-top:5px;
+border-radius:4px;
+}
+
+.menu ul ul {
+left:110px; 
+top:-1px;
+border-radius:4px;
+}
+
+.menu li.noborder {
+border-top:none;
+border-radius:4px;
+}
+
+li.menuhover a, li.menuhover li.menuhover a {
+color: rgb(255,153,0);
+background: rgb(57,105,24);
+border-radius:4px;
+
+}
+
+li.menuhover span, li.menuhover li.menuhover span {
+color: rgb(57,105,24);
+background:rgb(255,153,0);
+border-radius:4px;
+}

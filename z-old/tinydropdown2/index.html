@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>TinyDropdown 2 - animated javascript dropdown</title>
+<link rel="stylesheet" href="../css/tinydropdown.css" type="text/css" />
+<script type="text/javascript" src="tinydropdown.js"></script>
+</script>
+</head>
+<body>
+<div class="nav">
+    <ul id="menu" class="menu">
+        <li><a  class="home buttons" href="#home">HOME</a></li>
+        
+        
+        <li><a  class="teams buttons" href="#teams">TEAMS</a>
+            <ul>   
+                <li class="submenu noborder">
+                    <a href="#">18u</a>
+                    <ul>
+                        <li><a href="#eighteenElite" class="eighteenElite buttons">Elite</a></li>
+                    </ul>
+                </li> 
+                <li class="submenu">
+                    <a href="#">16u</a>
+                    <ul>
+                        <li><a href="#sixteenOrange" class="sixteenOrange buttons">Orange</a></li>
+                        <li><a href="#sixteenGreen" class="sixteenGreen buttons" >Green</a></li>
+                    </ul>
+                </li>      
+                <li class="submenu">
+                    <a href="#">14u</a>
+                    <ul>
+                        <li><a href="#fourteenOrange" class="fourteenOrange buttons">Orange</a></li>
+                        <li><a href="#fourteenGreen" class=" fourteenGreen buttons">Green</a></li>
+                    </ul>
+                </li>      
+                <li class="submenu">
+                    <a href="#">12u</a>
+                    <ul>
+                        <li><a href="#TwelveOrange" class="TwelveOrange buttons">Orange</a></li>
+                        <li><a href="#twelveGreen" class="twelveGreen buttons">Green</a></li>
+                        <li><a href="#twelveWhite" class="twelveWhite buttons">White</a></li>
+                    </ul>
+                </li>      
+                <li class="submenu">
+                    <a href="#">10u</a>
+                    <ul>
+                        <li><a href="#tenOrange" class="tenOrange buttons">Orange</a></li>
+                        <li><a href="#tenGreen" class="tenGreen buttons">Green</a></li>
+                    </ul>
+                </li>      
+                <li class="submenu">
+                    <a href="#">8u</a>
+                    <ul>
+                        <li><a href="#eightOrange" class="eightOrange buttons">Orange</a></li>
+                    </ul>
+                </li>      
+                
+                
+            </ul>
+        </li>
+        
+        
+        
+        <li><a  class="contact buttons" href="#contact">CONTACT</a></li>
+        <a  class="about buttons" href="#about">ABOUT</a>
+        
+    </ul>
+</div>
+<script type="text/javascript">
+var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
+</body>
+</html>

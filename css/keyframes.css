@@ -1,0 +1,174 @@
+/* ---------------- Color Switch Animation --------------- */
+	@keyframes colorSwitch 	{
+		
+		46% {
+				 color: rgb(57,105,24);
+				}
+			95% {
+			color: rgb(227,125,0);
+				}
+		}
+
+	
+	@-moz-keyframes colorSwitch 	{
+		
+		46% {
+				 color: rgb(57,105,24);
+				}
+			95% {
+			color: rgb(227,125,0);
+				}
+		}
+	
+	@-webkit-keyframes colorSwitch 	{
+	
+		46% {
+				 color: rgb(57,105,24);
+				}
+			95% {
+			color: rgb(227,125,0);
+				}
+		}
+	
+	@-ms-keyframes colorSwitch 	{
+		
+		46% {
+				 color: rgb(57,105,24);
+				}
+			95% {
+			color: rgb(227,125,0);
+				}
+		}	
+/* ---------------- end colorSwitch --------------- */
+
+
+/* ---------------- background-color Switch Animation --------------- */
+	@keyframes background-colorSwitch 	{
+		
+		6% {
+				 background-color: rgb(57,105,24);
+				}
+			95% {
+			background-color: rgb(227,125,0);
+				}
+		}
+
+	
+	@-moz-keyframes background-colorSwitch 	{
+		
+		6% {
+				 background-color: rgb(57,105,24);
+				}
+			95% {
+			background-color: rgb(227,125,0);
+				}
+		}
+	
+	@-webkit-keyframes background-colorSwitch 	{
+	
+		6% {
+				 background-color: rgb(57,105,24);
+				}
+			95% {
+			background-color: rgb(227,125,0);
+				}
+		}
+	
+	@-ms-keyframes background-colorSwitch 	{
+		
+		6% {
+				 background-color: rgb(57,105,24);
+				}
+			95% {
+			background-color: rgb(227,125,0);
+				}
+		}	
+/* ----------------End background-color Switch Animation --------------- */
+
+/* ---------------- border-color Switch1 Animation --------------- */
+	@keyframes border-colorSwitch1 	{
+		
+		80% {
+				 border-color: rgb(57,105,24);
+				}
+			100% {
+			border-color: rgb(227,125,0);
+				}
+		}
+
+	
+	@-moz-keyframes border-colorSwitch1 	{
+		
+		80% {
+				 border-color: rgb(57,105,24);
+				}
+			100% {
+			border-color: rgb(227,125,0);
+				}
+		}
+	
+	@-webkit-keyframes border-colorSwitch1 	{
+	
+		80% {
+				 border-color: rgb(57,105,24);
+				}
+			100% {
+			border-color: rgb(227,125,0);
+				}
+		}
+	
+	@-ms-keyframes border-colorSwitch1 	{
+		
+		80% {
+				 border-color: rgb(57,105,24);
+				}
+			100% {
+			border-color: rgb(227,125,0);
+				}
+		}	
+/* ----------------End border-color Switch1 Animation --------------- */
+
+/* ---------------- border-color Switch2 Animation --------------- */
+	@keyframes border-colorSwitch2 	{
+		80% {
+			border-color: rgb(227,125,0);
+				}
+		100% {
+				 border-color: rgb(57,105,24);
+				}
+			
+		}
+
+	
+	@-moz-keyframes border-colorSwitch2 	{
+			80% {
+			border-color: rgb(227,125,0);
+				}
+		100% {
+				 border-color: rgb(57,105,24);
+				}
+		
+		}
+	
+	@-webkit-keyframes border-colorSwitch2 	{
+	80% {
+			border-color: rgb(227,125,0);
+				}
+		100% {
+				 border-color: rgb(57,105,24);
+				}
+			
+		}
+	
+	@-ms-keyframes border-colorSwitch2 	{
+		
+		80% {
+			border-color: rgb(227,125,0);
+				}
+		100% {
+				 border-color: rgb(57,105,24);
+				}
+			
+		}	
+/* ----------------End border-color Switch2 Animation --------------- */
+
