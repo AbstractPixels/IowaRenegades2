@@ -183,7 +183,7 @@
         <p class="category">POSITIONS: <span class="info">2B | P | OF</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
-        <br>HIGH SCHOOL: <span class="info">Adel</span>
+        <br>HIGH SCHOOL: <span class="info">Winterset</span>
         <br>GRADUATES: <span class="info">2024</span>
         </p>
     </div><!--/player7i-->
