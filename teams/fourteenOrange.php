@@ -34,17 +34,17 @@
         <li<?php if($section == '' || $section == 'roster'): ?> class=""<?php endif; ?>>  
             <a href="?section=roster" class="heading">ROSTER</a>  
             <ul id="roster">   
-                        <li><a href="#player2" class="player11 buttons">Marissa Anderson</a></li>
-                        <li><a href="#player2" class="player1 buttons">Karli Benson</a></li>
-						<li><a href="#player3" class="player2 buttons">Brianna Colwell</a></li>
-                        <li><a href="#player4" class="player3 buttons">Ashley Caswell</a></li> 
-                        <li><a href="#player5" class="player4 buttons">Leah Davey</a></li> 
-                        <li><a href="#player8" class="player5 buttons">Lucy Karlin</a></li> 
-                        <li><a href="#player10" class="player6 buttons">Lyric McKinney</a></li>
-                        <li><a href="#player11" class="player7 buttons">Ashley Nethers</a></li> 
-                        <li><a href="#player12" class="player8 buttons">Hannah Poortinga</a></li> 
-                        <li><a href="#player13" class="player9 buttons">Jade Sharp</a></li>
-                        <li><a href="#player14" class="player10 buttons">Ava Torres</a></li>            
+                        <li><a href="#player11" class="player11 buttons">Marissa Anderson</a></li>
+                        <li><a href="#player1" class="player1 buttons">Karli Benson</a></li>
+						<li><a href="#player2" class="player2 buttons">Brianna Colwell</a></li>
+                        <li><a href="#player3" class="player3 buttons">Ashley Caswell</a></li> 
+                        <li><a href="#player5" class="player5 buttons">Lucy Karlin</a></li> 
+                        <li><a href="#player6" class="player6 buttons">Lyric McKinney</a></li>
+                        <li><a href="#player7" class="player7 buttons">Ashley Nethers</a></li>
+                        <li><a href="#player4" class="player4 buttons">Rabecka Parker</a></li>  
+                        <li><a href="#player8" class="player8 buttons">Hannah Poortinga</a></li> 
+                        <li><a href="#player9" class="player9 buttons">Jade Sharp</a></li>
+                        <li><a href="#player10" class="player10 buttons">Ava Torres</a></li>            
             </ul>  
         </li>     
   
@@ -57,7 +57,11 @@
                 <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1007439" target="_new">SDM Octoberfest - <span style="font-size:110%;">3rd</span></a></li> 
                 <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1027752" target="_new">ISG Spring Thaw Out - 5th</a></li>
                 <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1027769" target="_new">CIUA Kick Off Classic - <span style="font-size:110%;">3rd</span></a></li>
-                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034499" target="_new">C Gauntlet - 4th</a></li>             
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034499" target="_new">C Gauntlet - 4th</a></li>
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034623" target="_new">EDM Earlybird - 13th</a></li>
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1082979" target="_new">Queen of the Mountain - 5th</a></li>
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1051114" target="_new">WDM Invitational - 5th</a></li>
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034530" target="_new">State Championships - <span style="font-size:120%;">1st</span></a></li>             
             </ul>  
         </li> 
         
@@ -66,8 +70,11 @@
             <ul id="schedule">                
                 
                 
-                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034623" target="_new">5.16.14 - EDM Earlybird</a></li>
-                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1082979" target="_new">5.23.14 - Mem. Day Queen of the Mountain</a></li>
+                
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034628" target="_new">6.20.14 - Raccoon Valley Classic</a></li>
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1070120" target="_new">6.27.14 - UGRA 4th of July</a></li>
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1089564" target="_new">7.11.14 - MSC Scott Cahill Memorial</a></li>
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1060600" target="_new">7.16.14 - C World Series</a></li>
             </ul>  
         </li>
  
@@ -77,6 +84,8 @@
     
     <div id="contentDiv">
     
+    	<h2 style="margin-top:10px;">2014 C State Champions</h2>
+    
     	<div id="teami">
         <div id="teamPic">
         <!--<img src="../images/teams/18Elite/18Elite-01.jpg" width="320" height="240" alt="18 Elite team picture">-->
@@ -85,7 +94,7 @@
          <table style="">
 		<tr>
         	<td rowspan="5"  width="" style="width:90px;text-align:center;font-size:18px;padding-left:10px;">OVERALL RECORD<br/>
-            <span style="font-size:33px;color:green;">12-14</span></td>
+            <span style="font-size:33px;color:green;">23-24</span></td>
         </tr>
             <tr>
            	  <td width="100" class="category" style="width:90px;">HEAD COACH:</td>
@@ -117,11 +126,11 @@
     <div id="player1i">
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
         <h4>Karli Benson</h4>
-        <div class="playerNumber">0</div>
+        <div class="playerNumber">16</div>
         <p class="category">POSITIONS: <span class="info">OF | 2B</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
-        <br>HIGH SCHOOL: <span class="info"></span>
+        <br>HIGH SCHOOL: <span class="info">Valley</span>
         <br>GRADUATES: <span class="info">2018</span>
         </p>
     </div><!--/player1i-->
@@ -141,23 +150,23 @@
     <div id="player3i">
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
         <h4>Ashley Caswell</h4>
-        <div class="playerNumber">0</div>
+        <div class="playerNumber">5</div>
         <p class="category">POSITIONS: <span class="info">C | 1B</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
-        <br>HIGH SCHOOL: <span class="info"></span>
+        <br>HIGH SCHOOL: <span class="info">SEP</span>
         <br>GRADUATES: <span class="info">2018</span>
         </p>
     </div><!--/player3i-->
     
     <div id="player4i">
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
-        <h4>Leah Davey</h4>
-        <div class="playerNumber">0</div>
-        <p class="category">POSITIONS: <span class="info">3B | OF</span>
+        <h4>Rabecka Parker</h4>
+        <div class="playerNumber">08</div>
+        <p class="category">POSITIONS: <span class="info">P | OF</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
-        <br>HIGH SCHOOL: <span class="info"></span>
+        <br>HIGH SCHOOL: <span class="info">East</span>
         <br>GRADUATES: <span class="info">2018</span>
         </p>
     </div><!--/player4i-->
@@ -165,8 +174,8 @@
     <div id="player5i">
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
         <h4>Lucy Karlin</h4>
-        <div class="playerNumber">0</div>
-        <p class="category">POSITIONS: <span class="info">P | SS</span>
+        <div class="playerNumber">4</div>
+        <p class="category">POSITIONS: <span class="info">P | OF</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
         <br>HIGH SCHOOL: <span class="info">Roosevelt</span>
@@ -177,11 +186,11 @@
     <div id="player6i">
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
         <h4>Lyric McKinney</h4>
-        <div class="playerNumber">0</div>
-        <p class="category">POSITIONS: <span class="info">SS | 3B</span>
+        <div class="playerNumber">20</div>
+        <p class="category">POSITIONS: <span class="info">SS | OF</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
-        <br>HIGH SCHOOL: <span class="info"></span>
+        <br>HIGH SCHOOL: <span class="info">Hoover</span>
         <br>GRADUATES: <span class="info">2018</span>
         </p>
     </div><!--/player6i-->
@@ -189,12 +198,12 @@
     <div id="player7i">
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
         <h4>Ashley Nethers</h4>
-        <div class="playerNumber">0</div>
-        <p class="category">POSITIONS: <span class="info">C | OF</span>
+        <div class="playerNumber">25</div>
+        <p class="category">POSITIONS: <span class="info">C | 3B</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
-        <br>HIGH SCHOOL: <span class="info"></span>
-        <br>GRADUATES: <span class="info"></span>
+        <br>HIGH SCHOOL: <span class="info">Ballard</span>
+        <br>GRADUATES: <span class="info">2018</span>
     	</p>
     </div><!--/player8i-->
     
@@ -202,7 +211,7 @@
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
         <h4>Hannah Poortinga</h4>
         <div class="playerNumber">24</div>
-        <p class="category">POSITIONS: <span class="info">C | 3B</span>
+        <p class="category">POSITIONS: <span class="info">SS | C</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
         <br>HIGH SCHOOL: <span class="info">SE Polk</span>
@@ -237,8 +246,8 @@
     <div id="player11i">
 		<img src="../images/photo-coming-soon.jpg" style="margin:0 auto;display:block;" width="280" height="280">
         <h4>Marissa Anderson</h4>
-        <div class="playerNumber">0</div>
-        <p class="category">POSITIONS: <span class="info">OF | 2B</span>
+        <div class="playerNumber">23</div>
+        <p class="category">POSITIONS: <span class="info">1B | C</span>
         <br>BATS: <span class="info">Right</span>
         <br>THROWS: <span class="info">Right</span>
         <br>HIGH SCHOOL: <span class="info">East</span>
