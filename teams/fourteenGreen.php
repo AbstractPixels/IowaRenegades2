@@ -36,16 +36,16 @@
             <a href="?section=roster" class="heading">ROSTER</a>  
             <ul id="roster">   
                         <li><a href="#player1" class="player1 buttons">Saylor Abbas</a></li>
-                        <li><a href="#player1" class="player2 buttons">Abby Folkerts</a></li>
-                        <li><a href="#player2" class="player3 buttons">Jessica Gruber</a></li>
+                        <li><a href="#player2" class="player2 buttons">Abby Folkerts</a></li>
+                        <li><a href="#player3" class="player3 buttons">Jessica Gruber</a></li>
                         <li><a href="#player4" class="player4 buttons">Breianna Klein</a></li> 
                         <li><a href="#player5" class="player5 buttons">Caroline McAlexander</a></li> 
-                        <li><a href="#player5" class="player6 buttons">Kaitlyn Kottlowski</a></li> 
-                        <li><a href="#player6" class="player7 buttons">Haley Revell</a></li>
-                        <li><a href="#player7" class="player8 buttons">Kaylee Sly</a></li>
-                        <li><a href="#player8" class="player9 buttons">Kayla Sunderland</a></li> 
-                        <li><a href="#player9" class="player10 buttons">Leah Tigges</a></li>
-                        <li><a href="#player10" class="player11 buttons">Alexis Warrender</a></li>          
+                        <li><a href="#player6" class="player6 buttons">Kaitlyn Kottlowski</a></li> 
+                        <li><a href="#player7" class="player7 buttons">Haley Revell</a></li>
+                        <li><a href="#player8" class="player8 buttons">Kaylee Sly</a></li>
+                        <li><a href="#player9" class="player9 buttons">Kayla Sunderland</a></li> 
+                        <li><a href="#player10" class="player10 buttons">Leah Tigges</a></li>
+                        <li><a href="#player11" class="player11 buttons">Alexis Warrender</a></li>          
             </ul>  
         </li> 
         
@@ -64,7 +64,9 @@
                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1027789" target="_new">ISG Spring Blast - 7th</a></li>
                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1054623" target="_new">Jays C Joust - <span style="font-size:130%;">1st</span></a></li>
                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034499" target="_new">C Gauntlet - <span style="font-size:130%;">1st</span></a></li>
-               <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1082978" target="_new">Queen of the Mountain - 7th</a></li>
+               <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1082978" target="_new">Queen of the Mountain - 8th</a></li>
+               <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1051114" target="_new">WDM Invitational - <span style="font-size:120%;">2nd</span></a></li>
+               <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034530" target="_new">C State Championships - 5th</a></li>
             </ul>  
         </li>  
         
@@ -76,8 +78,8 @@
                 
                 
                 
-                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1040932" target="_new">6.6.14 - Altoona Classic</a></li>
-                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034530" target="_new">6.13.14 - Iowa USSSA State Championships</a></li>
+                
+                
                 <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034545" target="_new">7.5.14 - Freedom Fest</a></li>                
             </ul>  
         </li>         
@@ -95,7 +97,7 @@
         
             <tr>
         	<td rowspan="5"  width="" style="width:90px;text-align:center;font-size:18px;padding-left:10px;">OVERALL RECORD<br/>
-            <span style="font-size:33px;color:green;">26-20</span></td>
+            <span style="font-size:33px;color:green;">33-22</span></td>
         </tr>
             <tr>
            	  <td width="100" class="category" style="width:90px;">
