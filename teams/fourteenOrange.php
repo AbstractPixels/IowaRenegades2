@@ -61,7 +61,7 @@
                 <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034623" target="_new">EDM Earlybird - 13th</a></li>
                 <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1082979" target="_new">Queen of the Mountain - 5th</a></li>
                 <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1051114" target="_new">WDM Invitational - 5th</a></li>
-                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034530" target="_new">State Championships - <span style="font-size:120%;">1st</span></a></li>             
+                <li><a href="http://www.usssa.com/sports/Tournament3.asp?TournamentID=1034530" target="_new">State Championships - <span style="font-size:130%;">1st</span></a></li>             
             </ul>  
         </li> 
         
@@ -86,9 +86,9 @@
     
     	<h2 style="margin-top:10px;">2014 C State Champions</h2>
     
-    	<div id="teami">
+    	<div id="teami" style="top:40px;">
         <div id="teamPic">
-        <!--<img src="../images/teams/18Elite/18Elite-01.jpg" width="320" height="240" alt="18 Elite team picture">-->
+        <img src="../images/teams/2014/14Orange/14Orange-2.jpg" width="320" height="240" alt="2014 14u Orange team picture">
         </div>
         <p>
          <table style="">
