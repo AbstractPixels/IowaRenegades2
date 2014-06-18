@@ -88,7 +88,7 @@
     
     	<div id="teami" style="top:40px;">
         <div id="teamPic">
-        <img src="../images/teams/2014/14Orange/14Orange-2.jpg" width="320" height="240" alt="2014 14u Orange team picture">
+        <img src="../images/teams/2014/14Orange/14Orange-3.jpg" width="320" height="240" alt="2014 14u Orange team picture">
         </div>
         <p>
          <table style="">

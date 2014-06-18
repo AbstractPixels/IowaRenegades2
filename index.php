@@ -1114,6 +1114,7 @@ Develop highly competitive softball teams with players that exemplify the meanin
                     <img src="images/slideshow/slideshow26.jpg" width="310" height="232">
                     <img src="images/slideshow/slideshow27.jpg" width="310" height="232">
                     <img src="images/slideshow/slideshow28.jpg" width="310" height="232">
+                    <img src="images/slideshow/slideshow29.jpg" width="310" height="232">
   </div><!--slideshow-B1-->
         
          		<div id="slideshow-B2" class="cycle-slideshow" data-cycle-speed="1600" data-cycle-random="true" data-cycle-timeout="5200">
@@ -1145,7 +1146,8 @@ Develop highly competitive softball teams with players that exemplify the meanin
                     <img src="images/slideshow/slideshow25.jpg" width="310" height="232">
                     <img src="images/slideshow/slideshow26.jpg" width="310" height="232"> 
                     <img src="images/slideshow/slideshow27.jpg" width="310" height="232">
-                    <img src="images/slideshow/slideshow28.jpg" width="310" height="232">    
+                    <img src="images/slideshow/slideshow28.jpg" width="310" height="232">
+                    <img src="images/slideshow/slideshow29.jpg" width="310" height="232">    
   </div><!--slideshow-B2-->
         
           		<div id="slideshow-B3" class="cycle-slideshow" data-cycle-speed="1600" data-cycle-random="true" data-cycle-timeout="5400">
@@ -1178,6 +1180,7 @@ Develop highly competitive softball teams with players that exemplify the meanin
                     <img src="images/slideshow/slideshow26.jpg" width="310" height="232">
                     <img src="images/slideshow/slideshow27.jpg" width="310" height="232">
                     <img src="images/slideshow/slideshow28.jpg" width="310" height="232">
+                    <img src="images/slideshow/slideshow29.jpg" width="310" height="232">
                 </div><!--slideshow-B3-->
 
 </div><!-- contentWrapper-->
